@@ -2,7 +2,7 @@ import produce from 'immer';
 import React from 'react';
 import {TextInput, View} from 'react-native';
 import {useSharedState} from 'store/store';
-import Text from 'components/Text';
+import Text from 'components/Text/Text';
 
 const TextBox: React.FC = () => {
   const [state, setState] = useSharedState();
