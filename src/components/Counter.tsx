@@ -1,7 +1,8 @@
 import produce from 'immer';
 import React from 'react';
-import {Button, Text, View} from 'react-native';
+import {Button, View} from 'react-native';
 import {useSharedState} from 'store/store';
+import Text from 'components/Text';
 
 const Counter: React.FC = () => {
   const [state, setState] = useSharedState();
@@ -14,7 +15,7 @@ const Counter: React.FC = () => {
   };
   return (
     <View>
-      <Text>{state.count}</Text>
+      <Text variant="counter">{state.count}</Text>
       <Button title="+1" onPress={increment} />
     </View>
   );

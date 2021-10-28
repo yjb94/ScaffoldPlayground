@@ -1,7 +1,8 @@
 import produce from 'immer';
 import React from 'react';
-import {Text, TextInput, View} from 'react-native';
+import {TextInput, View} from 'react-native';
 import {useSharedState} from 'store/store';
+import Text from 'components/Text';
 
 const TextBox: React.FC = () => {
   const [state, setState] = useSharedState();
@@ -14,7 +15,7 @@ const TextBox: React.FC = () => {
   };
   return (
     <View>
-      <Text>{state.text}</Text>
+      <Text variant="textBox">{state.text}</Text>
       <TextInput value={state.text} onChangeText={setText} />
     </View>
   );
