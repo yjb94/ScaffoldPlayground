@@ -8,5 +8,5 @@ storiesOf('Text', module)
   .addDecorator(getStory => <Providers>{getStory()}</Providers>)
   .add('default', () => <Text>{text('default text', 'Hello')}</Text>)
   .add('Text color 지정', () => (
-    <Text color="greenPrimary">{text('colored text', 'I am colored')}</Text>
+    <Text color="purplePrimary">{text('colored text', 'I am colored')}</Text>
   ));

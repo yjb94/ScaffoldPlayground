@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Text Text color 지정 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#5A31F4",
+        "display": "flex",
+      },
+    ]
+  }
+>
+  I am colored
+</Text>
+`;
+
+exports[`Storyshots Text default 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "display": "flex",
+      },
+    ]
+  }
+>
+  Hello
+</Text>
+`;
