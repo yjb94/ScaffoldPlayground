@@ -60,3 +60,7 @@ buck-out/
 /ios/Pods/
 
 storybook/storyLoader.js
+
+# ENV
+.env.*
+.env
