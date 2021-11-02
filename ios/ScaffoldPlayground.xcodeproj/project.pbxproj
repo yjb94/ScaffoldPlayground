@@ -145,7 +145,6 @@
 				6C97AB639B58BBB4B15BBE30 /* Pods-ScaffoldPlayground-ScaffoldPlaygroundTests.debug.xcconfig */,
 				1D0AE47A65C8663E3B452821 /* Pods-ScaffoldPlayground-ScaffoldPlaygroundTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -485,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CX77S3W8RN;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ScaffoldPlayground/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CX77S3W8RN;
 				INFOPLIST_FILE = ScaffoldPlayground/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
