@@ -1,17 +1,12 @@
-import Counter from 'components/Counter';
-import TextBox from 'components/TextBox';
 import Providers from 'Providers';
 import React from 'react';
-import {SafeAreaView} from 'react-native';
 import Config from 'react-native-config';
+import Screens from 'screens';
 import StorybookUI from '../storybook';
 
 const App: React.FC = () => (
   <Providers>
-    <SafeAreaView>
-      <Counter />
-      <TextBox />
-    </SafeAreaView>
+    <Screens />
   </Providers>
 );
 
