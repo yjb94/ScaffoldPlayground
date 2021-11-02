@@ -28,6 +28,10 @@ const theme = createTheme({
       fontSize: 32,
       color: 'purplePrimary',
     },
+    button: {
+      fontSize: 16,
+      color: 'white',
+    },
   },
   spacing: {
     s: 8,

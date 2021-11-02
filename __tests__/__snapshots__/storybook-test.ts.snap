@@ -1,5 +1,247 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Button change text color 1`] = `
+<View
+  animatedStyle={
+    Object {
+      "value": Object {
+        "opacity": 1,
+      },
+    }
+  }
+  collapsable={false}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="button-animated-view"
+>
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#0ECD9D",
+        "display": "flex",
+        "flexDirection": "row",
+        "opacity": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 8,
+      }
+    }
+  >
+    <Text
+      accessibilityRole="text"
+      style={
+        Array [
+          Object {
+            "color": "#5A31F4",
+            "display": "flex",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      Which color am i
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Button default 1`] = `
+<View
+  animatedStyle={
+    Object {
+      "value": Object {
+        "opacity": 1,
+      },
+    }
+  }
+  collapsable={false}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="button-animated-view"
+>
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#0ECD9D",
+        "display": "flex",
+        "flexDirection": "row",
+        "opacity": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 8,
+      }
+    }
+  >
+    <Text
+      accessibilityRole="text"
+      style={
+        Array [
+          Object {
+            "color": "#F0F2F3",
+            "display": "flex",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      Click me
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Button disablled 1`] = `
+<View
+  animatedStyle={
+    Object {
+      "value": Object {
+        "opacity": 1,
+      },
+    }
+  }
+  collapsable={false}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="button-animated-view"
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#0ECD9D",
+        "display": "flex",
+        "flexDirection": "row",
+        "opacity": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 8,
+      }
+    }
+  >
+    <Text
+      accessibilityRole="text"
+      style={
+        Array [
+          Object {
+            "color": "#F0F2F3",
+            "display": "flex",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      Not available
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Button loading 1`] = `
+<View
+  animatedStyle={
+    Object {
+      "value": Object {
+        "opacity": 1,
+      },
+    }
+  }
+  collapsable={false}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="button-animated-view"
+>
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#0ECD9D",
+        "display": "flex",
+        "flexDirection": "row",
+        "opacity": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 8,
+      }
+    }
+  >
+    <Text
+      accessibilityRole="text"
+      style={
+        Array [
+          Object {
+            "color": "#F0F2F3",
+            "display": "flex",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      Fetching...
+    </Text>
+    <ActivityIndicator />
+  </View>
+</View>
+`;
+
 exports[`Storyshots Text Text color 지정 1`] = `
 <Text
   style={

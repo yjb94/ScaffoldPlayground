@@ -1,9 +1,12 @@
 import Providers from 'Providers';
 import React, {ReactElement} from 'react';
-import rtRenderer, {TestRendererOptions} from 'react-test-renderer';
+import {
+  render as rntlRender,
+  RenderOptions,
+} from '@testing-library/react-native';
 
-const render = (element: ReactElement, options?: TestRendererOptions) => {
-  return rtRenderer.create(<Providers>{element}</Providers>, options);
+const render = (element: ReactElement, options?: RenderOptions) => {
+  return rntlRender(<Providers>{element}</Providers>, options);
 };
 
 export default render;
