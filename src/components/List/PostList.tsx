@@ -1,15 +1,18 @@
 import {useNavigation} from '@react-navigation/native';
+import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import Button from 'components/Button/Button';
 import Text from 'components/Text/Text';
 import {usePosts} from 'hooks/usePosts';
 import React from 'react';
 import {FlatList, FlatListProps, View} from 'react-native';
+import {HomeStackParamList} from 'screens';
 
 interface PostListProps
   extends Omit<FlatListProps<Post>, 'renderItem' | 'data'> {}
 
 const PostList: React.FC<PostListProps> = ({...otherProps}) => {
-  const navigation = useNavigation();
+  const navigation =
+    useNavigation<NativeStackNavigationProp<HomeStackParamList>>();
   const {data} = usePosts();
 
   const renderItem: FlatListProps<Post>['renderItem'] = ({item}) => {
